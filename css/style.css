@@ -191,10 +191,11 @@ a {
 .our_goods {
   padding-top: 80px;
   min-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .h2 {
   text-align: center;
   font-weight: 600;
@@ -202,12 +203,12 @@ a {
   text-transform: uppercase;
 }
 
-/* line 112, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .goods {
   margin-top: 100px;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .goods_item {
   width: 25%;
   min-width: 242px;
@@ -215,7 +216,7 @@ a {
   height: 242px;
   margin-bottom: 100px;
 }
-/* line 123, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .goods_item img {
   display: inline-block;
   -webkit-transform: translateY(-50%) translateX(-50%);
@@ -226,7 +227,7 @@ a {
   left: 50%;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .delivery {
   background: url("../img/banner_1.jpg") 0 0 no-repeat;
   height: 794px;
@@ -236,7 +237,7 @@ a {
   margin-top: 50px;
 }
 
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .delivery_text {
   position: relative;
   top: 31%;
@@ -244,14 +245,14 @@ a {
   width: 70%;
   max-width: 654px;
 }
-/* line 149, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .delivery_text .tit {
   font-size: 48px;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
-/* line 155, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .delivery_text p {
   font-size: 30px;
   color: #fff;
@@ -260,7 +261,7 @@ a {
   line-height: 1.2em;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .contacts {
   background: url("../img/banner_2.jpg") 0 0 no-repeat;
   height: 1195px;
@@ -270,7 +271,7 @@ a {
   margin-top: 250px;
 }
 
-/* line 172, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .contacts_form {
   max-width: 860px;
   position: relative;
@@ -281,7 +282,7 @@ a {
   background: rgba(221, 221, 221, 0.5);
   padding: 100px 80px 110px 80px;
 }
-/* line 182, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .contacts_form .tit {
   color: #4cc0cd;
   text-transform: uppercase;
@@ -291,7 +292,7 @@ a {
   text-align: center;
 }
 
-/* line 192, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .input_item {
   display: inline-block;
   width: 100%;
@@ -305,31 +306,31 @@ a {
   margin-bottom: 40px;
 }
 
-/* line 205, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 ::-webkit-input-placeholder {
   color: #000;
   font: 600 24px 'Open Sans', sans-serif;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 ::-moz-placeholder {
   color: #000;
   font: 600 24px 'Open Sans', sans-serif;
 }
 
-/* line 207, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 :-moz-placeholder {
   color: #000;
   font: 600 24px 'Open Sans', sans-serif;
 }
 
-/* line 208, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 :-ms-input-placeholder {
   color: #000;
   font: 600 24px 'Open Sans', sans-serif;
 }
 
-/* line 210, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .submit_btn {
   background: #4cc0cd;
   width: 100%;
@@ -345,28 +346,28 @@ a {
   padding: 22px 0 26px 0;
   margin-top: 40px;
 }
-/* line 225, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .submit_btn:hover {
   background: #008bac;
 }
 
-/* line 230, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .blue {
   color: #4cc0cd;
 }
 
-/* line 234, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 footer {
   text-align: center;
   padding-bottom: 140px;
 }
-/* line 237, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 footer .h2 {
   font-size: 48px;
   margin-bottom: 80px;
 }
 
-/* line 243, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .phone {
   display: block;
   font-size: 48px;
@@ -374,11 +375,11 @@ footer .h2 {
   margin-bottom: 40px;
 }
 
-/* line 249, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .social_icons {
   padding-top: 64px;
 }
-/* line 251, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .social_icons .icon {
   display: inline-block;
   vertical-align: top;
@@ -390,15 +391,15 @@ footer .h2 {
   border-radius: 50%;
   background: url("../img/social_icon.jpg") 0 0 no-repeat;
 }
-/* line 262, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 .social_icons .icon.vk {
   background-position: 0 0;
 }
-/* line 263, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .social_icons .icon.fb {
   background-position: -138px 0;
 }
-/* line 264, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .social_icons .icon.od {
   background-position: -275px 0;
 }
