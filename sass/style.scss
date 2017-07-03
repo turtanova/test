@@ -39,7 +39,7 @@ a {
 	}
 }
 .wrap {
-	width: 1400px;
+	max-width: 1400px;
 	min-width: 1300px;
 	margin: 0 auto;
 }
@@ -98,7 +98,7 @@ a {
 }
 .our_goods {
 	padding-top: 80px;
-	width: 1300px;
+	min-width: 1300px;
 	margin: 0 auto;
 }
 
