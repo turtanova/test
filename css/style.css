@@ -118,7 +118,7 @@ a {
 
 /* line 41, ../sass/style.scss */
 .wrap {
-  max-width: 1400px;
+  width: 1400px;
   min-width: 1300px;
   margin: 0 auto;
 }
@@ -190,7 +190,7 @@ a {
 /* line 99, ../sass/style.scss */
 .our_goods {
   padding-top: 80px;
-  max-width: 1300px;
+  width: 1300px;
   margin: 0 auto;
 }
 
